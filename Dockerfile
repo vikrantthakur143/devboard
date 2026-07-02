@@ -1,3 +1,4 @@
-FROM ubuntu-latest
+FROM mediawiki:latest
 
-CMD ["bash"]
+
+CMD ["apache2-foreground"]
